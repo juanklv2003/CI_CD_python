@@ -34,7 +34,6 @@ jobs:
     # IMPORTANTE: Usamos 'python -m pytest' para arreglar el error de importación 'src'
     - name: Run tests with pytest
       run: |
-        # Añade el directorio actual al PYTHONPATH para encontrar 'src'
         export PYTHONPATH=$PYTHONPATH:.
         python -m pytest
 
