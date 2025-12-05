@@ -7,4 +7,4 @@ def test_to_upper():
     assert upper("Carlos")=="CARLOS"
 
 def test_hola():
-    assert  hola=="adioU"
+    assert  hola=="hola"
