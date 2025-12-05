@@ -3,3 +3,6 @@ def elevar(base, exp):
 
 def upper(text):
     return text.upper()
+
+def hola():
+    return "hola"
